@@ -10,6 +10,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task3.V2.Lib
     {
         public int[,] Calculate(int[,] matrix)
         {
+           
             int rows = matrix.GetUpperBound(0) + 1;
             int columns = matrix.Length / rows;
 

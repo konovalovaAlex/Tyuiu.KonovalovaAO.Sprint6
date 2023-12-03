@@ -45,6 +45,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task3.V2
             {
                 for (int j = 0; j < columns; j++)
                 {
+                    
                     dataGridViewMatrix_KAO.Rows[i].Cells[j].Value = Convert.ToString(mtrx[i, j]);
                 }
             }
