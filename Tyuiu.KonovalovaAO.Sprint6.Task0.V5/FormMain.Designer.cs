@@ -75,6 +75,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task0.V5
             this.labeluslovie_KAO.Size = new System.Drawing.Size(241, 17);
             this.labeluslovie_KAO.TabIndex = 0;
             this.labeluslovie_KAO.Text = "Вычислить выражение по формуле";
+            this.labeluslovie_KAO.Click += new System.EventHandler(this.labeluslovie_KAO_Click);
             // 
             // groupBoxVvod_KAO
             // 
