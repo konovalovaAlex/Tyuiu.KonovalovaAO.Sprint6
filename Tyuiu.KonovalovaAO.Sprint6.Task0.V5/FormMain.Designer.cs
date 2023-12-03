@@ -166,7 +166,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task0.V5
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Спринт 6 | Таск 0 | Вариант 5 | Коновалова А. О.";
+            this.Text = "Спринт 6 | Таск 0 | Вариант 5| Коновалова А. О.";
             this.groupBoxTask_KAO.ResumeLayout(false);
             this.groupBoxTask_KAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_KAO)).EndInit();
