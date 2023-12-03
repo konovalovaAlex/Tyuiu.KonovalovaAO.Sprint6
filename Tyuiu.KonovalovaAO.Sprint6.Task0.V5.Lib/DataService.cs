@@ -10,6 +10,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task0.V5.Lib
     {
         public double Calculate(int x)
         {
+            
             double res = -1.4 * Math.Pow(x, 3) + 2.3 * Math.Pow(x, 2) + 0.6 * x;
             return Math.Round(res, 3);
         }

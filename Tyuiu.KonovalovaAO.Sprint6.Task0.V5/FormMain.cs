@@ -20,7 +20,6 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task0.V5
         private void buttonDonne_KAO_Click(object sender, EventArgs e)
         {
             DataService ds = new DataService();
-
             try
             {
                 textBoxResult_KAO.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxInput_KAO.Text)));
