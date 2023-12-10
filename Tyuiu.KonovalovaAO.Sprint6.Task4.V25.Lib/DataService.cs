@@ -10,6 +10,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task4.V25.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
+            
             int len = (stopValue - startValue) + 1;
             double[] valueArray;
             valueArray = new double[len];

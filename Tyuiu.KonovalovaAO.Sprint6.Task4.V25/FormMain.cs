@@ -63,6 +63,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task4.V25
 
                 if (dialogResult == DialogResult.Yes)
                 {
+                    
                     System.Diagnostics.Process txt = new System.Diagnostics.Process();
                     txt.StartInfo.FileName = "notepad.exe";
                     txt.StartInfo.Arguments = path;
