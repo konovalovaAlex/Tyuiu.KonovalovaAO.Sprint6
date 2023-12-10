@@ -17,7 +17,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task5.V22
             InitializeComponent();
         }
         DataService ds = new DataService();
-        string path = @"C:\DataSprint6\InPutFileTask5V22.txt";
+        string path = @"C:\Users\user\source\repos\Tyuiu.KonovalovaAO.Sprint6\Tyuiu.KonovalovaAO.Sprint6.Task5.V22\bin\Debug\InPutFileTask5V22.txt";
 
         private void buttonDone_KAO_Click(object sender, EventArgs e)
         {
@@ -45,7 +45,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task5.V22
             
            try
             {
-                string path = @"C:\DataSprint6\InPutFileTask5V22.txt";
+                string path = @"C:\Users\user\source\repos\Tyuiu.KonovalovaAO.Sprint6\Tyuiu.KonovalovaAO.Sprint6.Task5.V22\bin\Debug\InPutFileTask5V22.txt";
                 System.Diagnostics.Process txt = new System.Diagnostics.Process();
                 txt.StartInfo.FileName = "notepad.exe";
                 txt.StartInfo.Arguments = path;
