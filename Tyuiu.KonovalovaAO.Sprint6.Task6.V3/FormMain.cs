@@ -27,7 +27,6 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task6.V3
             openFilePath = openFileDialogTask_KAO.FileName;
             textBoxInPutData_KAO.Text = File.ReadAllText(openFilePath);
             groupBoxInPutData_KAO.Text = groupBoxInPutData_KAO.Text + " " + openFileDialogTask_KAO.FileName;
-
             buttonDone_KAO.Enabled = true;
             buttonDone_KAO.BackColor = Color.LimeGreen;
         }
