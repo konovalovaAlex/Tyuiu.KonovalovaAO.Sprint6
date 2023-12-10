@@ -21,5 +21,10 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task6.V3
         {
             this.Close();
         }
+
+        private void labelInfo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

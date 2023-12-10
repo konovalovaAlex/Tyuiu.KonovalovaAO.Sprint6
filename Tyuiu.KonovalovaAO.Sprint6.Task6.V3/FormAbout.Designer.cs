@@ -45,6 +45,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task6.V3
             this.labelInfo.Text = "Разработчик: Коновалова .А.О.\r\nгруппа СМАРТб-23-1\r\n\r\nПрограмма разработана в рамк" +
     "ах изучения языка C#\r\n\r\nТюменский Индустриальный Университет (с) 2023\r\nВысшая Шк" +
     "ола цифровых технологий (с) 2023 ";
+            this.labelInfo.Click += new System.EventHandler(this.labelInfo_Click);
             // 
             // buttonOK_KAO
             // 
@@ -70,7 +71,7 @@ namespace Tyuiu.KonovalovaAO.Sprint6.Task6.V3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 265);
+            this.ClientSize = new System.Drawing.Size(611, 261);
             this.ControlBox = false;
             this.Controls.Add(this.buttonOK_KAO);
             this.Controls.Add(this.labelInfo);
